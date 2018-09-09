@@ -14,7 +14,7 @@
 		document.write("국어: " + this.korNum, "<br>");
 		document.write("영어: " + this.engNum, "<br>");
 	}
-	TestScore.prototype.getAvg = function() {
+	this.getAvg = function() {
 		return  (this.korNum+this.engNum) / 2;
 	}
     }
